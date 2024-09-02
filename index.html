@@ -77,13 +77,21 @@
         }
         .article-list li {
             display: flex; /* Disposición horizontal */
-            align-items: center; /* Alineación vertical centrada */
-            margin-bottom: 20px; /* Espacio entre artículos */
+            align-items: flex-start; /* Alineación vertical superior */
+            margin-bottom: 30px; /* Espacio entre artículos */
         }
         .article-list img {
             width: 100px; /* Tamaño de la figura del artículo */
             height: auto;
             margin-right: 20px; /* Espacio entre la figura y el texto */
+        }
+        .article-list div {
+            display: flex;
+            flex-direction: column; /* Columnas para cada línea de información */
+        }
+        .article-list div p {
+            margin: 0; /* Quitar márgenes para alineación vertical */
+            margin-bottom: 5px; /* Espacio entre líneas de información */
         }
     </style>
 </head>
@@ -151,31 +159,34 @@
             <li>
                 <img src="figura1.jpg" alt="Figura del artículo">
                 <div>
-                    <strong>Autor 1, Autor 2, Autor 3</strong> (Año). 
-                    <em>Título del Artículo</em>. Revista. 
-                    <br>
-                    <a href="https://doi.org/10.XXXX/XXXXXXXX" target="_blank">DOI</a> | 
-                    <a href="https://www.researchgate.net/publication/XXXXXXXX" target="_blank">ResearchGate</a>
+                    <p><strong>Autor 1, Autor 2, Autor 3</strong></p>
+                    <p><strong>Año</strong></p>
+                    <p><em>Título del Artículo</em></p>
+                    <p>Revista</p>
+                    <p><a href="https://doi.org/10.XXXX/XXXXXXXX" target="_blank">DOI</a> | 
+                    <a href="https://www.researchgate.net/publication/XXXXXXXX" target="_blank">ResearchGate</a></p>
                 </div>
             </li>
             <li>
                 <img src="figura2.jpg" alt="Figura del artículo">
                 <div>
-                    <strong>Autor 1, Autor 2, Autor 3</strong> (Año). 
-                    <em>Título del Artículo</em>. Revista. 
-                    <br>
-                    <a href="https://doi.org/10.XXXX/XXXXXXXX" target="_blank">DOI</a> | 
-                    <a href="https://www.researchgate.net/publication/XXXXXXXX" target="_blank">ResearchGate</a>
+                    <p><strong>Autor 1, Autor 2, Autor 3</strong></p>
+                    <p><strong>Año</strong></p>
+                    <p><em>Título del Artículo</em></p>
+                    <p>Revista</p>
+                    <p><a href="https://doi.org/10.XXXX/XXXXXXXX" target="_blank">DOI</a> | 
+                    <a href="https://www.researchgate.net/publication/XXXXXXXX" target="_blank">ResearchGate</a></p>
                 </div>
             </li>
             <li>
                 <img src="figura3.jpg" alt="Figura del artículo">
                 <div>
-                    <strong>Autor 1, Autor 2, Autor 3</strong> (Año). 
-                    <em>Título del Artículo</em>. Revista. 
-                    <br>
-                    <a href="https://doi.org/10.XXXX/XXXXXXXX" target="_blank">DOI</a> | 
-                    <a href="https://www.researchgate.net/publication/XXXXXXXX" target="_blank">ResearchGate</a>
+                    <p><strong>Autor 1, Autor 2, Autor 3</strong></p>
+                    <p><strong>Año</strong></p>
+                    <p><em>Título del Artículo</em></p>
+                    <p>Revista</p>
+                    <p><a href="https://doi.org/10.XXXX/XXXXXXXX" target="_blank">DOI</a> | 
+                    <a href="https://www.researchgate.net/publication/XXXXXXXX" target="_blank">ResearchGate</a></p>
                 </div>
             </li>
         </ul>
