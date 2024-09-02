@@ -2,7 +2,7 @@
     <img src="ocean_pic.jpg" alt="Header Image" style="width: 100%; height: 300px; object-fit: cover;">
 </div>
 
-<div style="display: flex; justify-content: space-around; background-color: #f4f4f4; padding: 10px 0; margin: 20px 0;">
+<div style="display: flex; justify-content: space-around; background-color: #FDFEFE; padding: 10px 0; margin: 20px 0;">
     <div style="text-align: center; flex-grow: 1;">
         <a href="#About-me">
             <img src="foto_ML.jpeg" alt="About Me" style="width: 10%; height: 10%; display: block;">
@@ -17,7 +17,7 @@
     </div>
     <div style="text-align: center; flex-grow: 1;">
         <a href="#Publications">
-            <img src="papers.png" alt="Publications" style="width: 20%; height: 20%; display: block;">
+            <img src="papers_icon.png" alt="Publications" style="width: 20%; height: 20%; display: block;">
             <p>Publications</p>
         </a>
     </div>
