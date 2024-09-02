@@ -5,13 +5,13 @@
 <div style="display: flex; justify-content: space-around; background-color: #f4f4f4; padding: 10px 0; margin: 20px 0;">
     <div style="text-align: center; flex-grow: 1;">
         <a href="#About-me">
-            <img src="foto_ML.jpeg" alt="About Me" style="width: 50px; height: 50px;">
+            <img src="foto_ML.jpeg" alt="About Me" style="width: 10px; height: 10px;">
             <p>About Me</p>
         </a>
     </div>
     <div style="text-align: center; flex-grow: 1;">
         <a href="#Research-interest">
-            <img src="ruta/a/icono2.png" alt="Research Interest" style="width: 5px; height: 5px;">
+            <img src="ruta/a/icono2.png" alt="Research Interest" style="width: 50px; height: 50px;">
             <p>Research Interest</p>
         </a>
     </div>
