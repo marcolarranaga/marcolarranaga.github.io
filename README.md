@@ -29,9 +29,6 @@
     </div>
 </div>
 
-
-
-
 ## About Me
 Aquí va tu contenido sobre ti.
 
