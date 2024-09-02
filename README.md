@@ -2,36 +2,32 @@
     <img src="ocean_pic.jpg" alt="Header Image" style="width: 100%; height: 300px; object-fit: cover;">
 </div>
 
-
 <div style="display: flex; justify-content: space-around; background-color: #FDFEFE; padding: 10px 0; margin: 20px 0;">
     <div style="text-align: center; flex-grow: 1;">
-        <p style="text-align: center; margin: 0;">Info</p>
+        <p style="text-align: center; margin: 0; font-size: 16px; color: #000000;">Info</p>
         <a href="#About-me" style="display: inline-block;">
             <img src="about_me_icon.png" alt="About Me" style="width: 40%; height: 40%; display: block; margin: 0 auto;">
         </a>
     </div>
     <div style="text-align: center; flex-grow: 1;">
-        <p style="text-align: center; margin: 0;">Info</p>
+        <p style="text-align: center; margin: 0; font-size: 16px; color: #000000;">Info</p>
         <a href="#Research-interest" style="display: inline-block;">
             <img src="research_icon.png" alt="Research Interest" style="width: 40%; height: 40%; display: block; margin: 0 auto;">
         </a>
     </div>
     <div style="text-align: center; flex-grow: 1;">
-        <p style="text-align: center; margin: 0;">Info</p>
+        <p style="text-align: center; margin: 0; font-size: 16px; color: #000000;">Info</p>
         <a href="#Publications" style="display: inline-block;">
             <img src="papers_icon.png" alt="Publications" style="width: 40%; height: 40%; display: block; margin: 0 auto;">
         </a>
     </div>
     <div style="text-align: center; flex-grow: 1;">
-        <p style="text-align: center; margin: 0;">Info</p>
+        <p style="text-align: center; margin: 0; font-size: 16px; color: #000000;">Info</p>
         <a href="#Contact" style="display: inline-block;">
             <img src="contact_icon.png" alt="Contact" style="width: 40%; height: 40%; display: block; margin: 0 auto;">
         </a>
     </div>
 </div>
-
-
-
 
 
 
