@@ -79,6 +79,20 @@
             font-weight: bold;
             color: #333333;
         }
+        .about-me-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px; /* Ajusta según el espacio deseado */
+        }
+        .about-me-container img {
+            width: 200px; /* Ajusta según el tamaño de tu foto */
+            height: auto;
+            margin-right: 20px;
+            border-radius: 50%; /* Si quieres que la foto sea circular */
+        }
+        .about-me-text {
+            flex: 1;
+        }
         .article-list {
             list-style-type: none;
             padding: 0;
@@ -161,7 +175,13 @@
         <hr class="section-divider">
         <div class="section" id="About-me">
             <h2>About Me</h2>
-            <p>...</p>
+            <div class="about-me-container">
+                <img src="ML_photo.png" alt="Your Photo">
+                <div class="about-me-text">
+                    <p>Me apasionan las interacciones entre el océano, el oleaje y la atmósfera.</p>
+                    <p>Mi investigación se centra en entender cómo estas interacciones afectan a la dinámica del océano y cómo se pueden modelar para mejorar nuestras predicciones y comprensión del clima.</p>
+                </div>
+            </div>
         </div>
 
         <!-- Sección Publications -->
