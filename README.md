@@ -11,7 +11,7 @@
     </div>
     <div style="text-align: center; flex-grow: 1;">
         <a href="#Research-interest">
-            <img src="lupa_icon.png" alt="Research Interest" style="width: 10%; height: 10%; display: block;">
+            <img src="research_icon.png" alt="Research Interest" style="width: 30%; height: 30%; display: block;">
             <p>Research Interest</p>
         </a>
     </div>
