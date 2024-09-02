@@ -5,29 +5,28 @@
 
 <div style="display: flex; justify-content: space-around; background-color: #FDFEFE; padding: 10px 0; margin: 20px 0;">
     <div style="text-align: center; flex-grow: 1;">
+        <a href="#About-me" style="display: inline-block;">
             <img src="about_me_icon.png" alt="About Me" style="width: 40%; height: 40%; display: block; margin: 0 auto;">
         </a>
-        <p style="text-align: center;">About Me</p>
     </div>
     <div style="text-align: center; flex-grow: 1;">
         <a href="#Research-interest" style="display: inline-block;">
             <img src="research_icon.png" alt="Research Interest" style="width: 40%; height: 40%; display: block; margin: 0 auto;">
         </a>
-        <p style="text-align: center;">Research Interest</p>
     </div>
     <div style="text-align: center; flex-grow: 1;">
         <a href="#Publications" style="display: inline-block;">
             <img src="papers_icon.png" alt="Publications" style="width: 40%; height: 40%; display: block; margin: 0 auto;">
         </a>
-        <p style="text-align: center;">Publications</p>
     </div>
     <div style="text-align: center; flex-grow: 1;">
         <a href="#Contact" style="display: inline-block;">
             <img src="contact_icon.png" alt="Contact" style="width: 40%; height: 40%; display: block; margin: 0 auto;">
         </a>
-        <p style="text-align: center;">Contact</p>
     </div>
 </div>
+
+
 
 
 
