@@ -4,7 +4,7 @@
 
 <div style="display: flex; justify-content: space-around; background-color: #FDFEFE; padding: 10px 0; margin: 20px 0;">
     <div style="text-align: center; flex-grow: 1;">
-        <p style="text-align: center; margin: 0; font-size: 20px; font-weight: bold; color: #333333;">About-me</p>
+        <p style="text-align: center; margin: 0; font-size: 30px; font-weight: bold; color: #333333;">About me</p>
         <a href="#About-me" style="display: inline-block;">
             <img src="about_me_icon.png" alt="About Me" style="width: 40%; height: 40%; display: block; margin: 0 auto;">
         </a>
