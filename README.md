@@ -6,20 +6,26 @@
 
 <div style="display: flex; justify-content: space-around; background-color: #f4f4f4; padding: 10px 0; margin: 20px 0;">
     <div style="text-align: center; flex-grow: 1;">
-        <a href="#about-me">
+        <a href="#About-me">
             <img src="ruta/a/icono1.png" alt="About Me" style="width: 50px; height: 50px;">
             <p>About Me</p>
         </a>
     </div>
     <div style="text-align: center; flex-grow: 1;">
-        <a href="#research-interest">
+        <a href="#Research-interest">
             <img src="ruta/a/icono2.png" alt="Research Interest" style="width: 50px; height: 50px;">
             <p>Research Interest</p>
         </a>
     </div>
     <div style="text-align: center; flex-grow: 1;">
-        <a href="#publications">
+        <a href="#Publications">
             <img src="ruta/a/icono3.png" alt="Publications" style="width: 50px; height: 50px;">
+            <p>Publications</p>
+        </a>
+    </div>
+    <div style="text-align: center; flex-grow: 1;">
+        <a href="#Contact">
+            <img src="ruta/a/icono3.png" alt="Contact" style="width: 50px; height: 50px;">
             <p>Publications</p>
         </a>
     </div>
