@@ -1,5 +1,3 @@
-# Mi Página
-
 <div style="text-align:center;">
     <img src="ruta/a/tu/imagen.jpg" alt="Header Image" style="width: 100%; height: 300px; object-fit: cover;">
 </div>
