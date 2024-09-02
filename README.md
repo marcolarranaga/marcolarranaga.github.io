@@ -11,19 +11,19 @@
     </div>
     <div style="text-align: center; flex-grow: 1;">
         <a href="#Research-interest">
-            <img src="research_icon.png" alt="Research Interest" style="width: 20%; height: 20%; display: block;">
+            <img src="research_icon.png" alt="Research Interest" style="width: 40%; height: 40%; display: block;">
             <p>Research Interest</p>
         </a>
     </div>
     <div style="text-align: center; flex-grow: 1;">
         <a href="#Publications">
-            <img src="papers_icon.png" alt="Publications" style="width: 20%; height: 20%; display: block;">
+            <img src="papers_icon.png" alt="Publications" style="width: 40%; height: 40%; display: block;">
             <p>Publications</p>
         </a>
     </div>
     <div style="text-align: center; flex-grow: 1;">
         <a href="#Contact">
-            <img src="contact_icon.png" alt="Contact" style="width: 20%; height: 20%; display: block;">
+            <img src="contact_icon.png" alt="Contact" style="width: 40%; height: 40%; display: block;">
             <p>Publications</p>
         </a>
     </div>
