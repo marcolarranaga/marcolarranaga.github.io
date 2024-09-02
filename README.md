@@ -15,7 +15,7 @@
         .header-image {
             width: 100%;
             height: 300px;
-            background-image: url('ruta/a/tu/imagen.jpg');
+            background-image: url('ocean_pic.jpg');
             background-size: cover;
             background-position: center;
         }
