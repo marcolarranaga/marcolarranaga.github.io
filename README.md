@@ -5,7 +5,7 @@
 <div style="display: flex; justify-content: space-around; background-color: #f4f4f4; padding: 10px 0; margin: 200px 0;">
     <div style="text-align: center; flex-grow: 1;">
         <a href="#About-me">
-            <img src="foto_ML.jpeg" alt="About Me" style="width: 73.2px; height: 102.4px !important;">
+            <img src="foto_ML.jpeg" alt="About Me" style="width: 73px; height: 102px !important;">
             <p>About Me</p>
         </a>
     </div>
