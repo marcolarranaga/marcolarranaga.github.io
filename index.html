@@ -70,6 +70,21 @@
             font-weight: bold;
             color: #333333;
         }
+        .article-list {
+            list-style-type: none; /* Quitar los marcadores de la lista */
+            padding: 0;
+            margin: 0;
+        }
+        .article-list li {
+            display: flex; /* Disposición horizontal */
+            align-items: center; /* Alineación vertical centrada */
+            margin-bottom: 20px; /* Espacio entre artículos */
+        }
+        .article-list img {
+            width: 100px; /* Tamaño de la figura del artículo */
+            height: auto;
+            margin-right: 20px; /* Espacio entre la figura y el texto */
+        }
     </style>
 </head>
 <body>
@@ -132,27 +147,36 @@
 
         <!-- Subsección Submitted -->
         <h3>Submitted</h3>
-        <ul>
+        <ul class="article-list">
             <li>
-                <strong>Autor 1, Autor 2, Autor 3</strong> (Año). 
-                <em>Título del Artículo</em>. Revista. 
-                <br>
-                <a href="https://doi.org/10.XXXX/XXXXXXXX" target="_blank">DOI</a> | 
-                <a href="https://www.researchgate.net/publication/XXXXXXXX" target="_blank">ResearchGate</a>
+                <img src="figura1.jpg" alt="Figura del artículo">
+                <div>
+                    <strong>Autor 1, Autor 2, Autor 3</strong> (Año). 
+                    <em>Título del Artículo</em>. Revista. 
+                    <br>
+                    <a href="https://doi.org/10.XXXX/XXXXXXXX" target="_blank">DOI</a> | 
+                    <a href="https://www.researchgate.net/publication/XXXXXXXX" target="_blank">ResearchGate</a>
+                </div>
             </li>
             <li>
-                <strong>Autor 1, Autor 2, Autor 3</strong> (Año). 
-                <em>Título del Artículo</em>. Revista. 
-                <br>
-                <a href="https://doi.org/10.XXXX/XXXXXXXX" target="_blank">DOI</a> | 
-                <a href="https://www.researchgate.net/publication/XXXXXXXX" target="_blank">ResearchGate</a>
+                <img src="figura2.jpg" alt="Figura del artículo">
+                <div>
+                    <strong>Autor 1, Autor 2, Autor 3</strong> (Año). 
+                    <em>Título del Artículo</em>. Revista. 
+                    <br>
+                    <a href="https://doi.org/10.XXXX/XXXXXXXX" target="_blank">DOI</a> | 
+                    <a href="https://www.researchgate.net/publication/XXXXXXXX" target="_blank">ResearchGate</a>
+                </div>
             </li>
             <li>
-                <strong>Autor 1, Autor 2, Autor 3</strong> (Año). 
-                <em>Título del Artículo</em>. Revista. 
-                <br>
-                <a href="https://doi.org/10.XXXX/XXXXXXXX" target="_blank">DOI</a> | 
-                <a href="https://www.researchgate.net/publication/XXXXXXXX" target="_blank">ResearchGate</a>
+                <img src="figura3.jpg" alt="Figura del artículo">
+                <div>
+                    <strong>Autor 1, Autor 2, Autor 3</strong> (Año). 
+                    <em>Título del Artículo</em>. Revista. 
+                    <br>
+                    <a href="https://doi.org/10.XXXX/XXXXXXXX" target="_blank">DOI</a> | 
+                    <a href="https://www.researchgate.net/publication/XXXXXXXX" target="_blank">ResearchGate</a>
+                </div>
             </li>
         </ul>
 
