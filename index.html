@@ -54,7 +54,7 @@
             color: #333;
         }
         .icon-bar-wrapper {
-            width: 80%;
+            
             margin: 70px auto 0 auto;
         }
         .icon-bar {
@@ -121,7 +121,7 @@
         hr.section-divider {
             border: none;
             border-top: 2px solid #cccccc;
-            margin: 10px 10%;
+            margin: -10px 10%; /* Increased vertical margin from 10px to 30px */
             width: 80%;
         }
     </style>
@@ -337,28 +337,29 @@
 
         <!-- Sección Contact -->
         <hr class="section-divider">
-        <div class="section" id="Contact">
-            <h2>Contact</h2>
-            <div class="icon-bar-wrapper">
-                <div class="icon-bar">
-                    <div>
+        <div class="section" id="Contact" style="padding-top: 60px; padding-bottom: 40px;">
+            <div class="icon-bar-wrapper" style="margin-top: 20px;">
+                <div class="icon-bar" style="align-items: center; justify-content: flex-start; text-align: left;">
+                    <div style="flex-grow: 0; padding: 0 20px;">
+                        <a href="mailto:marco.larranaga@fsu.edu" style="text-decoration: none; color: inherit;">
+                            <p style="font-size: 16px; margin: 0; text-align: left;">
+                                Marco Larrañaga<br>
+                                Postdoctoral Research Associate<br>
+                                Center for Ocean-Atmospheric Prediction Studies (COAPS)<br>
+                                Florida State University<br>
+                                <u>marco.larranaga@fsu.edu</u>
+                            </p>
+                        </a>
+                    </div>
+                    <div style="padding: 0 20px;">
                         <a href="https://www.researchgate.net/profile/Marco-Larranaga" target="_blank">
-                            <img src="icons/researchgate-icon.png" alt="ResearchGate">
+                            <img src="researchgate_icon.png" alt="ResearchGate" style="height: 70px; width: auto;">
                         </a>
-                        <p>ResearchGate</p>
                     </div>
-                    <div>
+                    <div style="padding: 0 20px;">
                         <a href="https://github.com/marcolarranaga" target="_blank">
-                            <img src="icons/github-icon.png" alt="GitHub">
+                            <img src="github_icon.png" alt="GitHub" style="height: 70px; width: auto;">
                         </a>
-                        <p>GitHub</p>
-                    </div>
-                    <div style="text-align: left; font-size: 0.6em;">
-                        <p>Marco Larrañaga<br>
-                        Postdoctoral Research Associate<br>
-                        Center for Ocean-Atmospheric Prediction Studies (COAPS)<br>
-                        Florida State University<br>
-                        <a href="mailto:marco.larranaga@fsu.edu">marco.larranaga@fsu.edu</a></p>
                     </div>
                 </div>
             </div>
