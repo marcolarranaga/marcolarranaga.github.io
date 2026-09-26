@@ -14,8 +14,10 @@
         .navbar {
             display: flex;
             justify-content: center;
+            align-items: center;
             background-color: #333;
-            padding: 10px 0;
+            height: 34px;
+            padding: 0;
             position: fixed;
             width: 100%;
             top: 0;
@@ -26,8 +28,8 @@
             color: #FFF;
             text-decoration: none;
             margin: 0 15px;
-            font-size: 18px;
-            padding: 5px 10px;
+            font-size: 15px;
+            padding: 4px 10px;
             display: inline-block;
         }
         .navbar a:hover {
@@ -36,14 +38,14 @@
         }
         .header-image {
             width: 100%;
-            height: 260px;
-            object-fit: cover;
-            margin-top: 51px; /* Ajusta este valor según sea necesario */
+            height: auto;
+            display: block;
+            margin-top: 34px; /* Matches the fixed navbar height */
         }
         .content-wrapper {
             width: 80%;
             margin: 0 auto;
-            padding-top: 60px; /* Padding top adjusted to account for fixed navbar */
+            padding-top: 31px;
         }
         .section {
             padding: 80px 20px;
@@ -58,6 +60,13 @@
             max-width: 1200px;
             margin: 70px auto 0 auto;
         }
+        .header-icons {
+            margin-top: 24px;
+        }
+        .header-icons .icon-bar {
+            padding: 4px 0;
+            margin: 7px 0;
+        }
         .icon-bar {
             display: flex;
             justify-content: space-between;
@@ -70,8 +79,8 @@
             flex-grow: 1;
         }
         .icon-bar img {
-            width: 80px;
-            height: 80px;
+            width: 56px;
+            height: 56px;
             display: block;
             margin: 0 auto;
         }
@@ -154,7 +163,7 @@
     </div>
 
     <!-- Contenedor para la barra de íconos -->
-    <div class="icon-bar-wrapper">
+    <div class="icon-bar-wrapper header-icons">
         <div class="icon-bar">
             <div>
                 <p>About Me</p>
@@ -404,9 +413,9 @@
 
         <!-- Sección Contact -->
         <hr class="section-divider">
-        <div class="section" id="Contact" style="padding-top: 60px; padding-bottom: 40px;">
-            <div class="icon-bar-wrapper" style="margin-top: 20px;">
-                <div class="icon-bar" style="align-items: center; justify-content: flex-start; text-align: left;">
+        <div class="section" id="Contact" style="padding-top: 40px; padding-bottom: 40px;">
+            <div class="icon-bar-wrapper" style="margin-top: 0;">
+                <div class="icon-bar" style="align-items: center; justify-content: flex-start; text-align: left; margin-top: 0;">
                     <div style="flex-grow: 0; padding: 0 20px;">
                         <a href="mailto:marco.larranaga@fsu.edu" style="text-decoration: none; color: inherit;">
                             <p style="font-size: 16px; margin: 0; text-align: left;">
