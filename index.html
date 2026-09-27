@@ -36,11 +36,18 @@
             background-color: #575757;
             border-radius: 4px;
         }
+        .header-scroller {
+            margin-top: 34px; /* Matches the fixed navbar height */
+            overflow-x: auto;
+            overflow-y: hidden;
+            -webkit-overflow-scrolling: touch;
+        }
         .header-image {
-            width: 100%;
+            /* At least ~120px tall so the animation stays readable on a phone or when zoomed. */
+            width: max(100%, 1162px);
             height: auto;
             display: block;
-            margin-top: 34px; /* Matches the fixed navbar height */
+            margin-top: 0;
         }
         .content-wrapper {
             width: 80%;
@@ -138,6 +145,93 @@
             margin: -20px 10%; /* Increased vertical margin from 10px to 30px */
             width: 80%;
         }
+        @media (max-width: 700px) {
+            body {
+                overflow-x: hidden;
+            }
+            .navbar {
+                position: sticky;
+                height: auto;
+                flex-wrap: wrap;
+                padding: 4px 6px;
+            }
+            .navbar a {
+                margin: 0 4px;
+                font-size: 13px;
+                padding: 6px 4px;
+            }
+            .header-scroller {
+                margin-top: 0;
+            }
+            .header-image {
+                margin-top: 0;
+            }
+            .icon-bar-wrapper,
+            .content-wrapper {
+                width: 100%;
+            }
+            .header-icons {
+                margin-top: 12px;
+            }
+            .icon-bar {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .icon-bar div {
+                flex: 1 1 45%;
+                padding: 8px 4px;
+            }
+            .icon-bar p {
+                font-size: 14px;
+            }
+            .icon-bar img {
+                width: 44px;
+                height: 44px;
+            }
+            .section {
+                padding: 20px 16px 28px;
+            }
+            .section h2 {
+                font-size: 24px;
+            }
+            .about-me-container {
+                flex-direction: column;
+                align-items: center;
+            }
+            .about-me-container img {
+                width: 160px;
+                margin-right: 0;
+                margin-bottom: 16px;
+            }
+            .article-list li {
+                flex-direction: column;
+            }
+            .article-list img {
+                width: 100%;
+                margin-right: 0;
+                margin-bottom: 12px;
+            }
+            hr.section-divider {
+                width: calc(100% - 32px);
+                margin: 12px auto;
+            }
+            #Contact .icon-bar {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            #Contact .icon-bar div {
+                flex: none;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            #Contact .icon-bar p {
+                overflow-wrap: anywhere;
+            }
+            #Contact .icon-bar img {
+                width: auto;
+                height: 52px;
+            }
+        }
     </style>
 
     <!-- Google tag (gtag.js) -->
@@ -162,7 +256,7 @@
     </div>
 
     <!-- Imagen de encabezado -->
-    <div>
+    <div class="header-scroller">
         <!--
         <img src="AVISO_antartic360_1993_01_01-2000_01_01_KE_24_fps.gif" alt="Header Image" class="header-image">
         -->
